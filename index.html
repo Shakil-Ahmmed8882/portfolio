@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal solution</title>
+    <!-- Font awesome -->
+
+    <!-- Google Font (EB GARAMOND)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Font (POPPINS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+
+    <!-- Tailwind and DaisyUI cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom tailwind setup -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "clr-primary": "#EA1D5D",
+              desc: "#21243D",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- custom font style -->
+    <style>
+      .font-garamond {
+        font-family: "EB Garamond", serif;
+      }
+
+      .font-poppins {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container mx-auto">
+      <nav
+        class="max-w-[1000px] py-3 mx-auto flex justify-between items-center">
+        <div class="logo">
+          <img src="./images/icons/Logo.png" alt="Logo" />
+        </div>
+        <ul class="flex gap-5">
+          <li><a href="#" class="text-clr-primary">Home</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- hero section -->
+      <section
+        class="container pt-14 mx-auto max-w-[1000px] justify-between flex flex-col-reverse md:flex-row lg:h-[540px] items-center">
+        <article class="space-y-5 flex-1 pt-14 md:pt-0 px-3">
+          <h1 class="text-2xl md:text-5xl font-bold">
+            Building digital <br />
+            <span class="text-clr-primary">products & brands</span>
+          </h1>
+          <p class="text-desc">
+            I am a Digital Product Designer and Creative Designer in Dhaka. I
+            specialize in UX/UI Design, Responsive Web & Mobile Design,
+            Front-end Development, and more
+          </p>
+          <button class="p-1 px-3 rounded-lg lg:btn bg-clr-primary text-white">
+            Let’s talk 👋
+          </button>
+        </article>
+        <article class="flex-1 justify-end">
+          <img
+            class="w-[300px] md:w-[480px]"
+            src="./images/banner-img.png"
+            alt="" />
+        </article>
+      </section>
+    </header>
+
+    <!-- main -->
+    <main></main>
+
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>
